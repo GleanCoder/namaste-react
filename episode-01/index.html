@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inception</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <!-- You can use React by using CDN Links here below we used the Links to use React  -->
+
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+
+    <!-- Always keep the file in structured way if we define App before React CDN it will throw an error that React is not defined.
+     ➡️ Keep the CDN on Top Always.
+    -->
+    <script src="./App.js"></script>
+  </body>
+</html>
